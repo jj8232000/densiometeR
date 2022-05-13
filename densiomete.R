@@ -52,7 +52,7 @@ datalist <- list() # creates empty list to store data in
 # image_convert(type = 'Bilevel') -> bilateral_img # converts 3 channel RGB image to a 2 channel bilateral image
 
 setwd(image_path)
-files <- list.files(pattern = "\\.jpg$", full.names = FALSE, recursive = FALSE) # creates list of files in polarpath
+files <- list.files(pattern = "\\.jpg$", ignore.case = TRUE, full.names = FALSE, recursive = FALSE) # creates list of files in polarpath
 
 # recursive generation of canopy quantification
 
