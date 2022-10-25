@@ -1,3 +1,6 @@
+OBSOLETE: CONVERTED TO PYTHON -- SEE densssiometer FOR MODERNIZED VER.
+
+
 READ ME:
 densiometeR - documentation and changelog
 
